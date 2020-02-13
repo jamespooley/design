@@ -50,7 +50,7 @@ However, I don't think it's reasonable to expect that people will remember the o
 
 ## What are the exceptions?
 
-I think the main exception to this rule is when you are teaching a function for the first time. It makes sense to emphasis the names of the data arguments to help people understand exactly what's going on. For example, in [R for data science](https://r4ds.had.co.nz/data-visualisation.html) when we introduce ggplot2 we write code like:
+I think the main exception to this rule is when you are teaching a function for the first time. It makes sense to emphasizes the names of the data arguments to help people understand exactly what's going on. For example, in [R for data science](https://r4ds.had.co.nz/data-visualisation.html) when we introduce ggplot2 we write code like:
 
 ```{r, eval = FALSE}
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
